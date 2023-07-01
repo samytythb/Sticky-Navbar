@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.4rem;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  padding: 10px;
+}
+.navbar ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
+.navbar p {
+  font-size: 28px;
+  font-weight: 600;
+  color: violet;
+  cursor: pointer;
+  font-family: "Dancing Script", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a:first-child {
+  text-decoration: none;
+}
+
+.top-container {
+  background-image: url(https://images.unsplash.com/photo-1570215171323-4ec328f3f5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-container {
+  color: black;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+}
+.text {
+  margin: 50px 5%;
+  font-size: 20px;
+}
+.active {
+  background-color: black;
+}
+.active ul li a {
+  color: white;
+}
